@@ -1119,6 +1119,10 @@ form {
   max-width: 399px;
 }
 
+.footer__email p {
+  color: var(--Dark-blue, #282938);
+}
+
 .footer__email-tel {
   display: flex;
   justify-content: center;
@@ -1161,6 +1165,10 @@ form {
   align-items: flex-start;
   gap: 25px;
   padding: 96px 0 0 0;
+}
+
+.footer__tel p {
+  color: var(--Dark-blue, #282938);
 }
 
 .Lets_talk h4 {
@@ -1272,7 +1280,7 @@ form {
 }
 
 .footer p {
-  color: var(--Dark-blue, #282938);
+  color: var(--White, #FFF);
   font-family: 'Poppins';
   font-size: 16px;
   font-style: normal;
@@ -1303,21 +1311,6 @@ form {
   opacity: 0.4;
   transition: all ease-in 0.4s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media screen and (max-width: 1330px) {
